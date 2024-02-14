@@ -1,0 +1,9 @@
+{
+    // modify to your own local sdk
+    "dart.sdkPath": "/Users/osaxma/Projects/dart-sdk-dev/sdk/xcodebuild/ReleaseX64/dart-sdk/",
+    "dart.lineLength": 80,
+    "[dart]":{
+        "editor.rulers": [80],
+        
+    },
+}
