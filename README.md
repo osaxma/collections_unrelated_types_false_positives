@@ -4,6 +4,9 @@ This repository contains a collection of false poisitive that were found during 
     > Warn when a type argument `T` in `Iterable<E>.whereType<T>` is not related to `E`
 
 
+> [!INFO] 
+> See [examples/minimal_repro.dart](examples/minimal_repro.dart) which can be tested without building the sdk using the CL above. 
+
 1. The following two false positives were found in `flutter` related repositories (at least the public ones):
     - CI Logs ([link](https://logs.chromium.org/logs/dart/buildbucket/cr-buildbucket/8756187026038770497/+/u/analyze_flutter_flutter/stdout)):
     ```
